@@ -1,0 +1,35 @@
+body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.profilePic{
+    width: 150px;
+}
+
+.businessCard{
+    border: 5px solid black;
+    margin: 25px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    
+    text-align: center;
+    background-color: #6c8caa;
+    color: #2b2839;
+    border-bottom: 5px solid #EDECE7;
+}
+
+
+.information p{
+    font-weight: 500;
+}
+.businessCard:hover{
+    background-color: rgb(136, 189, 190);
+    transition: 500ms;
+}
+.information h3:hover{
+    cursor: pointer;
+    font-size: 20px;
+    transition: 250ms;
+}
